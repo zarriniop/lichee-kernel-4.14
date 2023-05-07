@@ -87,12 +87,12 @@
 	status = "okay";
 };
 
-&mmc1 {
-	broken-cd;
-	bus-width = <4>;
-	vmmc-supply = <&reg_vcc3v3>;
-	status = "okay";
-};
+//&mmc1 {
+//	broken-cd;
+//	bus-width = <4>;
+//	vmmc-supply = <&reg_vcc3v3>;
+//	status = "okay";
+//};
 
 &lradc {
 	vref-supply = <&reg_vcc3v0>;
