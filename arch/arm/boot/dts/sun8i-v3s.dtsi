@@ -355,6 +355,11 @@
 				pins = "PB8", "PB9";
 				function = "uart0";
 			};
+			
+			uart2_pins: uart2-pins {
+				pins = "PB0", "PB1";
+				function = "uart2";
+			};
 
 			lcd_rgb666_pins_a: lcd-rgb666-pe {
 				pins = "PE0", "PE1", "PE2", "PE3", "PE4", "PE5",
